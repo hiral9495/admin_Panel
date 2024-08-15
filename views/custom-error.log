@@ -1,0 +1,15 @@
+[08-Aug-2024 05:20:47 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in C:\wamp64\www\Admin_Panel\views\userList.php on line 39
+[08-Aug-2024 05:20:47 UTC] PHP Stack trace:
+[08-Aug-2024 05:20:47 UTC] PHP   1. {main}() C:\wamp64\www\Admin_Panel\views\userList.php:0
+[08-Aug-2024 05:21:08 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in C:\wamp64\www\Admin_Panel\views\userList.php on line 39
+[08-Aug-2024 05:21:08 UTC] PHP Stack trace:
+[08-Aug-2024 05:21:08 UTC] PHP   1. {main}() C:\wamp64\www\Admin_Panel\views\userList.php:0
+[08-Aug-2024 05:21:53 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in C:\wamp64\www\Admin_Panel\views\userList.php on line 40
+[08-Aug-2024 05:21:53 UTC] PHP Stack trace:
+[08-Aug-2024 05:21:53 UTC] PHP   1. {main}() C:\wamp64\www\Admin_Panel\views\userList.php:0
+[08-Aug-2024 05:21:56 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in C:\wamp64\www\Admin_Panel\views\userList.php on line 40
+[08-Aug-2024 05:21:56 UTC] PHP Stack trace:
+[08-Aug-2024 05:21:56 UTC] PHP   1. {main}() C:\wamp64\www\Admin_Panel\views\userList.php:0
+[08-Aug-2024 05:22:28 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in C:\wamp64\www\Admin_Panel\views\userList.php on line 40
+[08-Aug-2024 05:22:28 UTC] PHP Stack trace:
+[08-Aug-2024 05:22:28 UTC] PHP   1. {main}() C:\wamp64\www\Admin_Panel\views\userList.php:0

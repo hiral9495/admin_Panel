@@ -1,0 +1,19 @@
+# .htaccess file in the root directory of your project
+
+# Enable URL rewriting
+RewriteEngine On
+
+# Set the base directory
+RewriteBase /admin_panel/
+
+# Redirect requests for specific files (like profile) to the public directory
+RewriteRule ^profile$ public/profile.php [L]
+
+# Add similar rules for other files if necessary
+ RewriteRule ^dashboard$ public/dashboard.php [L]
+
+ RewriteRule ^userList$ public/userList.php [L]
+ RewriteRule ^logout$ public/logout.php [L]
+ RewriteRule ^login$ public/login.php [L]
+ RewriteRule ^register$ public/register.php [L]
+ RewriteRule ^superAdmin$ public/superAdmin.php [L]

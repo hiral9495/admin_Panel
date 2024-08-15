@@ -1,0 +1,351 @@
+[08-Aug-2024 05:25:31 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\wamp64\www\Admin_Panel\views\userList.php on line 7
+[08-Aug-2024 05:25:31 UTC] PHP Stack trace:
+[08-Aug-2024 05:25:31 UTC] PHP   1. {main}() C:\wamp64\www\Admin_Panel\public\userList.php:0
+[08-Aug-2024 05:25:31 UTC] PHP   2. include() C:\wamp64\www\Admin_Panel\public\userList.php:20
+[08-Aug-2024 05:25:31 UTC] PHP   3. session_start() C:\wamp64\www\Admin_Panel\views\userList.php:7
+[08-Aug-2024 05:25:31 UTC] PHP Warning:  Undefined variable $users in C:\wamp64\www\Admin_Panel\views\userList.php on line 41
+[08-Aug-2024 05:25:31 UTC] PHP Stack trace:
+[08-Aug-2024 05:25:31 UTC] PHP   1. {main}() C:\wamp64\www\Admin_Panel\public\userList.php:0
+[08-Aug-2024 05:25:31 UTC] PHP   2. include() C:\wamp64\www\Admin_Panel\public\userList.php:20
+[08-Aug-2024 05:25:31 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in C:\wamp64\www\Admin_Panel\views\userList.php on line 41
+[08-Aug-2024 05:25:31 UTC] PHP Stack trace:
+[08-Aug-2024 05:25:31 UTC] PHP   1. {main}() C:\wamp64\www\Admin_Panel\public\userList.php:0
+[08-Aug-2024 05:25:31 UTC] PHP   2. include() C:\wamp64\www\Admin_Panel\public\userList.php:20
+[08-Aug-2024 05:26:03 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\wamp64\www\Admin_Panel\views\userList.php on line 7
+[08-Aug-2024 05:26:03 UTC] PHP Stack trace:
+[08-Aug-2024 05:26:03 UTC] PHP   1. {main}() C:\wamp64\www\Admin_Panel\public\userList.php:0
+[08-Aug-2024 05:26:03 UTC] PHP   2. include() C:\wamp64\www\Admin_Panel\public\userList.php:20
+[08-Aug-2024 05:26:03 UTC] PHP   3. session_start() C:\wamp64\www\Admin_Panel\views\userList.php:7
+[08-Aug-2024 05:26:22 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\wamp64\www\Admin_Panel\views\userList.php on line 7
+[08-Aug-2024 05:26:22 UTC] PHP Stack trace:
+[08-Aug-2024 05:26:22 UTC] PHP   1. {main}() C:\wamp64\www\Admin_Panel\public\userList.php:0
+[08-Aug-2024 05:26:22 UTC] PHP   2. include() C:\wamp64\www\Admin_Panel\public\userList.php:20
+[08-Aug-2024 05:26:22 UTC] PHP   3. session_start() C:\wamp64\www\Admin_Panel\views\userList.php:7
+[08-Aug-2024 05:29:03 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in C:\wamp64\www\Admin_Panel\views\userList.php on line 38
+[08-Aug-2024 05:29:03 UTC] PHP Stack trace:
+[08-Aug-2024 05:29:03 UTC] PHP   1. {main}() C:\wamp64\www\Admin_Panel\public\userList.php:0
+[08-Aug-2024 05:29:03 UTC] PHP   2. include() C:\wamp64\www\Admin_Panel\public\userList.php:20
+[08-Aug-2024 05:29:42 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in C:\wamp64\www\Admin_Panel\views\userList.php on line 38
+[08-Aug-2024 05:29:42 UTC] PHP Stack trace:
+[08-Aug-2024 05:29:42 UTC] PHP   1. {main}() C:\wamp64\www\Admin_Panel\public\userList.php:0
+[08-Aug-2024 05:29:42 UTC] PHP   2. include() C:\wamp64\www\Admin_Panel\public\userList.php:21
+[08-Aug-2024 05:30:20 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in C:\wamp64\www\Admin_Panel\views\userList.php on line 38
+[08-Aug-2024 05:30:20 UTC] PHP Stack trace:
+[08-Aug-2024 05:30:20 UTC] PHP   1. {main}() C:\wamp64\www\Admin_Panel\public\userList.php:0
+[08-Aug-2024 05:30:20 UTC] PHP   2. include() C:\wamp64\www\Admin_Panel\public\userList.php:21
+[08-Aug-2024 05:30:36 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in C:\wamp64\www\Admin_Panel\views\userList.php on line 38
+[08-Aug-2024 05:30:36 UTC] PHP Stack trace:
+[08-Aug-2024 05:30:36 UTC] PHP   1. {main}() C:\wamp64\www\Admin_Panel\public\userList.php:0
+[08-Aug-2024 05:30:36 UTC] PHP   2. include() C:\wamp64\www\Admin_Panel\public\userList.php:21
+[08-Aug-2024 05:32:10 UTC] PHP Fatal error:  Uncaught ArgumentCountError: explode() expects at least 2 arguments, 1 given in C:\wamp64\www\Admin_Panel\public\userList.php:20
+Stack trace:
+#0 C:\wamp64\www\Admin_Panel\public\userList.php(20): explode(NULL)
+#1 {main}
+  thrown in C:\wamp64\www\Admin_Panel\public\userList.php on line 20
+[08-Aug-2024 05:40:47 UTC] PHP Deprecated:  explode(): Passing null to parameter #2 ($string) of type string is deprecated in C:\wamp64\www\Admin_Panel\public\userList.php on line 20
+[08-Aug-2024 05:40:47 UTC] PHP Stack trace:
+[08-Aug-2024 05:40:47 UTC] PHP   1. {main}() C:\wamp64\www\Admin_Panel\public\userList.php:0
+[08-Aug-2024 05:40:47 UTC] PHP   2. explode($separator = ',', $string = NULL) C:\wamp64\www\Admin_Panel\public\userList.php:20
+[08-Aug-2024 05:40:47 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in C:\wamp64\www\Admin_Panel\views\userList.php:40
+Stack trace:
+#0 C:\wamp64\www\Admin_Panel\public\userList.php(21): include()
+#1 {main}
+  thrown in C:\wamp64\www\Admin_Panel\views\userList.php on line 40
+[08-Aug-2024 05:41:24 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in C:\wamp64\www\Admin_Panel\views\userList.php on line 38
+[08-Aug-2024 05:41:24 UTC] PHP Stack trace:
+[08-Aug-2024 05:41:24 UTC] PHP   1. {main}() C:\wamp64\www\Admin_Panel\public\userList.php:0
+[08-Aug-2024 05:41:24 UTC] PHP   2. include() C:\wamp64\www\Admin_Panel\public\userList.php:20
+[08-Aug-2024 07:15:45 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\Admin_Panel\controllers\UserController.php on line 181
+[08-Aug-2024 07:15:45 UTC] PHP Stack trace:
+[08-Aug-2024 07:15:45 UTC] PHP   1. {main}() C:\wamp64\www\Admin_Panel\public\userList.php:0
+[08-Aug-2024 07:15:45 UTC] PHP   2. UserController->processRequest() C:\wamp64\www\Admin_Panel\public\userList.php:25
+[08-Aug-2024 07:15:45 UTC] PHP   3. UserController->loginAs() C:\wamp64\www\Admin_Panel\controllers\UserController.php:36
+[08-Aug-2024 07:15:56 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\Admin_Panel\controllers\UserController.php on line 181
+[08-Aug-2024 07:15:56 UTC] PHP Stack trace:
+[08-Aug-2024 07:15:56 UTC] PHP   1. {main}() C:\wamp64\www\Admin_Panel\public\userList.php:0
+[08-Aug-2024 07:15:56 UTC] PHP   2. UserController->processRequest() C:\wamp64\www\Admin_Panel\public\userList.php:25
+[08-Aug-2024 07:15:56 UTC] PHP   3. UserController->loginAs() C:\wamp64\www\Admin_Panel\controllers\UserController.php:36
+[08-Aug-2024 07:16:43 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\Admin_Panel\controllers\UserController.php on line 181
+[08-Aug-2024 07:16:43 UTC] PHP Stack trace:
+[08-Aug-2024 07:16:43 UTC] PHP   1. {main}() C:\wamp64\www\Admin_Panel\public\userList.php:0
+[08-Aug-2024 07:16:43 UTC] PHP   2. UserController->loginAs() C:\wamp64\www\Admin_Panel\public\userList.php:25
+[08-Aug-2024 07:16:59 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\Admin_Panel\controllers\UserController.php on line 181
+[08-Aug-2024 07:16:59 UTC] PHP Stack trace:
+[08-Aug-2024 07:16:59 UTC] PHP   1. {main}() C:\wamp64\www\Admin_Panel\public\userList.php:0
+[08-Aug-2024 07:16:59 UTC] PHP   2. UserController->loginAs() C:\wamp64\www\Admin_Panel\public\userList.php:25
+[08-Aug-2024 07:18:01 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\Admin_Panel\controllers\UserController.php on line 181
+[08-Aug-2024 07:18:01 UTC] PHP Stack trace:
+[08-Aug-2024 07:18:01 UTC] PHP   1. {main}() C:\wamp64\www\Admin_Panel\public\userList.php:0
+[08-Aug-2024 07:18:01 UTC] PHP   2. UserController->loginAs() C:\wamp64\www\Admin_Panel\public\userList.php:25
+[08-Aug-2024 07:18:08 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\Admin_Panel\controllers\UserController.php on line 181
+[08-Aug-2024 07:18:08 UTC] PHP Stack trace:
+[08-Aug-2024 07:18:08 UTC] PHP   1. {main}() C:\wamp64\www\Admin_Panel\public\userList.php:0
+[08-Aug-2024 07:18:08 UTC] PHP   2. UserController->loginAs() C:\wamp64\www\Admin_Panel\public\userList.php:25
+[08-Aug-2024 07:24:15 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\Admin_Panel\controllers\UserController.php on line 181
+[08-Aug-2024 07:24:15 UTC] PHP Stack trace:
+[08-Aug-2024 07:24:15 UTC] PHP   1. {main}() C:\wamp64\www\Admin_Panel\public\userList.php:0
+[08-Aug-2024 07:24:15 UTC] PHP   2. UserController->loginAs() C:\wamp64\www\Admin_Panel\public\userList.php:25
+[08-Aug-2024 07:28:44 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\Admin_Panel\controllers\UserController.php on line 181
+[08-Aug-2024 07:28:44 UTC] PHP Stack trace:
+[08-Aug-2024 07:28:44 UTC] PHP   1. {main}() C:\wamp64\www\Admin_Panel\public\userList.php:0
+[08-Aug-2024 07:28:44 UTC] PHP   2. UserController->loginAs() C:\wamp64\www\Admin_Panel\public\userList.php:25
+[08-Aug-2024 07:29:35 UTC] PHP Warning:  Undefined array key "user_id" in C:\wamp64\www\Admin_Panel\controllers\UserController.php on line 181
+[08-Aug-2024 07:29:35 UTC] PHP Stack trace:
+[08-Aug-2024 07:29:35 UTC] PHP   1. {main}() C:\wamp64\www\Admin_Panel\public\userList.php:0
+[08-Aug-2024 07:29:35 UTC] PHP   2. UserController->loginAs() C:\wamp64\www\Admin_Panel\public\userList.php:25
+[08-Aug-2024 07:40:00 UTC] PHP Warning:  Undefined array key "user_role" in C:\wamp64\www\Admin_Panel\controllers\UserController.php on line 193
+[08-Aug-2024 07:40:00 UTC] PHP Stack trace:
+[08-Aug-2024 07:40:00 UTC] PHP   1. {main}() C:\wamp64\www\Admin_Panel\public\userList.php:0
+[08-Aug-2024 07:40:00 UTC] PHP   2. UserController->processRequest() C:\wamp64\www\Admin_Panel\public\userList.php:25
+[08-Aug-2024 07:40:00 UTC] PHP   3. UserController->loginAs() C:\wamp64\www\Admin_Panel\controllers\UserController.php:36
+[08-Aug-2024 07:40:40 UTC] PHP Warning:  Undefined array key "username" in C:\wamp64\www\Admin_Panel\views\main.php on line 47
+[08-Aug-2024 07:40:40 UTC] PHP Stack trace:
+[08-Aug-2024 07:40:40 UTC] PHP   1. {main}() C:\wamp64\www\Admin_Panel\public\userList.php:0
+[08-Aug-2024 07:40:40 UTC] PHP   2. include() C:\wamp64\www\Admin_Panel\public\userList.php:20
+[08-Aug-2024 07:40:40 UTC] PHP   3. include() C:\wamp64\www\Admin_Panel\views\userList.php:23
+[08-Aug-2024 07:40:40 UTC] PHP Deprecated:  strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in C:\wamp64\www\Admin_Panel\views\main.php on line 47
+[08-Aug-2024 07:40:40 UTC] PHP Stack trace:
+[08-Aug-2024 07:40:40 UTC] PHP   1. {main}() C:\wamp64\www\Admin_Panel\public\userList.php:0
+[08-Aug-2024 07:40:40 UTC] PHP   2. include() C:\wamp64\www\Admin_Panel\public\userList.php:20
+[08-Aug-2024 07:40:40 UTC] PHP   3. include() C:\wamp64\www\Admin_Panel\views\userList.php:23
+[08-Aug-2024 07:40:40 UTC] PHP   4. strtoupper($string = NULL) C:\wamp64\www\Admin_Panel\views\main.php:47
+[08-Aug-2024 07:40:40 UTC] PHP Warning:  Undefined array key "username" in C:\wamp64\www\Admin_Panel\views\main.php on line 48
+[08-Aug-2024 07:40:40 UTC] PHP Stack trace:
+[08-Aug-2024 07:40:40 UTC] PHP   1. {main}() C:\wamp64\www\Admin_Panel\public\userList.php:0
+[08-Aug-2024 07:40:40 UTC] PHP   2. include() C:\wamp64\www\Admin_Panel\public\userList.php:20
+[08-Aug-2024 07:40:40 UTC] PHP   3. include() C:\wamp64\www\Admin_Panel\views\userList.php:23
+[08-Aug-2024 07:40:40 UTC] PHP Deprecated:  strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in C:\wamp64\www\Admin_Panel\views\main.php on line 48
+[08-Aug-2024 07:40:40 UTC] PHP Stack trace:
+[08-Aug-2024 07:40:40 UTC] PHP   1. {main}() C:\wamp64\www\Admin_Panel\public\userList.php:0
+[08-Aug-2024 07:40:40 UTC] PHP   2. include() C:\wamp64\www\Admin_Panel\public\userList.php:20
+[08-Aug-2024 07:40:40 UTC] PHP   3. include() C:\wamp64\www\Admin_Panel\views\userList.php:23
+[08-Aug-2024 07:40:40 UTC] PHP   4. strtoupper($string = NULL) C:\wamp64\www\Admin_Panel\views\main.php:48
+[08-Aug-2024 07:41:15 UTC] PHP Warning:  Undefined array key "user_role" in C:\wamp64\www\Admin_Panel\controllers\UserController.php on line 193
+[08-Aug-2024 07:41:15 UTC] PHP Stack trace:
+[08-Aug-2024 07:41:15 UTC] PHP   1. {main}() C:\wamp64\www\Admin_Panel\public\userList.php:0
+[08-Aug-2024 07:41:15 UTC] PHP   2. UserController->processRequest() C:\wamp64\www\Admin_Panel\public\userList.php:25
+[08-Aug-2024 07:41:15 UTC] PHP   3. UserController->loginAs() C:\wamp64\www\Admin_Panel\controllers\UserController.php:36
+[13-Aug-2024 05:16:43 UTC] PHP Warning:  Undefined array key "id" in C:\wamp64\www\Admin_Panel\controllers\UserController.php on line 181
+[13-Aug-2024 05:16:43 UTC] PHP Stack trace:
+[13-Aug-2024 05:16:43 UTC] PHP   1. {main}() C:\wamp64\www\Admin_Panel\public\userList.php:0
+[13-Aug-2024 05:16:43 UTC] PHP   2. UserController->processRequest() C:\wamp64\www\Admin_Panel\public\userList.php:25
+[13-Aug-2024 05:16:43 UTC] PHP   3. UserController->loginAs() C:\wamp64\www\Admin_Panel\controllers\UserController.php:36
+[13-Aug-2024 06:36:14 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\wamp64\www\Admin_Panel\views\member.php on line 6
+[13-Aug-2024 06:36:14 UTC] PHP Stack trace:
+[13-Aug-2024 06:36:14 UTC] PHP   1. {main}() C:\wamp64\www\Admin_Panel\public\dashboard.php:0
+[13-Aug-2024 06:36:14 UTC] PHP   2. include() C:\wamp64\www\Admin_Panel\public\dashboard.php:30
+[13-Aug-2024 06:36:14 UTC] PHP   3. session_start() C:\wamp64\www\Admin_Panel\views\member.php:6
+[13-Aug-2024 06:36:14 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\wamp64\www\Admin_Panel\views\member.php:6) in C:\wamp64\www\Admin_Panel\views\member.php on line 24
+[13-Aug-2024 06:36:14 UTC] PHP Stack trace:
+[13-Aug-2024 06:36:14 UTC] PHP   1. {main}() C:\wamp64\www\Admin_Panel\public\dashboard.php:0
+[13-Aug-2024 06:36:14 UTC] PHP   2. include() C:\wamp64\www\Admin_Panel\public\dashboard.php:30
+[13-Aug-2024 06:36:14 UTC] PHP   3. header($header = 'Location: \'../public/dashboard.php') C:\wamp64\www\Admin_Panel\views\member.php:24
+[13-Aug-2024 06:45:54 UTC] PHP Warning:  Undefined array key "super_admin_backup" in C:\wamp64\www\Admin_Panel\views\member.php on line 6
+[13-Aug-2024 06:45:54 UTC] PHP Stack trace:
+[13-Aug-2024 06:45:54 UTC] PHP   1. {main}() C:\wamp64\www\Admin_Panel\public\dashboard.php:0
+[13-Aug-2024 06:45:54 UTC] PHP   2. include() C:\wamp64\www\Admin_Panel\public\dashboard.php:30
+[13-Aug-2024 06:46:26 UTC] PHP Warning:  Undefined array key "super_admin_backup" in C:\wamp64\www\Admin_Panel\views\member.php on line 6
+[13-Aug-2024 06:46:26 UTC] PHP Stack trace:
+[13-Aug-2024 06:46:26 UTC] PHP   1. {main}() C:\wamp64\www\Admin_Panel\public\dashboard.php:0
+[13-Aug-2024 06:46:26 UTC] PHP   2. include() C:\wamp64\www\Admin_Panel\public\dashboard.php:30
+[13-Aug-2024 16:23:26 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\wamp64\www\Admin_Panel\views\main.php:81) in C:\wamp64\www\Admin_Panel\public\dashboard.php on line 54
+[13-Aug-2024 16:23:26 UTC] PHP Stack trace:
+[13-Aug-2024 16:23:26 UTC] PHP   1. {main}() C:\wamp64\www\Admin_Panel\public\dashboard.php:0
+[13-Aug-2024 16:23:26 UTC] PHP   2. header($header = 'Location:  dashboard.php') C:\wamp64\www\Admin_Panel\public\dashboard.php:54
+[13-Aug-2024 16:23:56 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\wamp64\www\Admin_Panel\views\main.php:81) in C:\wamp64\www\Admin_Panel\public\dashboard.php on line 58
+[13-Aug-2024 16:23:56 UTC] PHP Stack trace:
+[13-Aug-2024 16:23:56 UTC] PHP   1. {main}() C:\wamp64\www\Admin_Panel\public\dashboard.php:0
+[13-Aug-2024 16:23:56 UTC] PHP   2. header($header = 'Location: login.php') C:\wamp64\www\Admin_Panel\public\dashboard.php:58
+[13-Aug-2024 16:24:06 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\wamp64\www\Admin_Panel\views\main.php:81) in C:\wamp64\www\Admin_Panel\public\dashboard.php on line 54
+[13-Aug-2024 16:24:06 UTC] PHP Stack trace:
+[13-Aug-2024 16:24:06 UTC] PHP   1. {main}() C:\wamp64\www\Admin_Panel\public\dashboard.php:0
+[13-Aug-2024 16:24:06 UTC] PHP   2. header($header = 'Location:  dashboard.php') C:\wamp64\www\Admin_Panel\public\dashboard.php:54
+[13-Aug-2024 16:24:39 UTC] PHP Warning:  Undefined array key "super_admin_backup" in C:\wamp64\www\Admin_Panel\public\dashboard.php on line 40
+[13-Aug-2024 16:24:39 UTC] PHP Stack trace:
+[13-Aug-2024 16:24:39 UTC] PHP   1. {main}() C:\wamp64\www\Admin_Panel\public\dashboard.php:0
+[13-Aug-2024 16:24:39 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\wamp64\www\Admin_Panel\views\main.php:81) in C:\wamp64\www\Admin_Panel\public\dashboard.php on line 58
+[13-Aug-2024 16:24:39 UTC] PHP Stack trace:
+[13-Aug-2024 16:24:39 UTC] PHP   1. {main}() C:\wamp64\www\Admin_Panel\public\dashboard.php:0
+[13-Aug-2024 16:24:39 UTC] PHP   2. header($header = 'Location: login.php') C:\wamp64\www\Admin_Panel\public\dashboard.php:58
+[13-Aug-2024 16:25:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\wamp64\www\Admin_Panel\views\main.php:81) in C:\wamp64\www\Admin_Panel\public\dashboard.php on line 54
+[13-Aug-2024 16:25:00 UTC] PHP Stack trace:
+[13-Aug-2024 16:25:00 UTC] PHP   1. {main}() C:\wamp64\www\Admin_Panel\public\dashboard.php:0
+[13-Aug-2024 16:25:00 UTC] PHP   2. header($header = 'Location:  dashboard.php') C:\wamp64\www\Admin_Panel\public\dashboard.php:54
+[13-Aug-2024 16:25:47 UTC] PHP Warning:  Undefined array key "super_admin_backup" in C:\wamp64\www\Admin_Panel\public\dashboard.php on line 40
+[13-Aug-2024 16:25:47 UTC] PHP Stack trace:
+[13-Aug-2024 16:25:47 UTC] PHP   1. {main}() C:\wamp64\www\Admin_Panel\public\dashboard.php:0
+[13-Aug-2024 16:25:47 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\wamp64\www\Admin_Panel\views\main.php:74) in C:\wamp64\www\Admin_Panel\public\dashboard.php on line 58
+[13-Aug-2024 16:25:47 UTC] PHP Stack trace:
+[13-Aug-2024 16:25:47 UTC] PHP   1. {main}() C:\wamp64\www\Admin_Panel\public\dashboard.php:0
+[13-Aug-2024 16:25:47 UTC] PHP   2. header($header = 'Location: login.php') C:\wamp64\www\Admin_Panel\public\dashboard.php:58
+[13-Aug-2024 16:26:19 UTC] PHP Warning:  Undefined array key "super_admin_backup" in C:\wamp64\www\Admin_Panel\public\dashboard.php on line 40
+[13-Aug-2024 16:26:19 UTC] PHP Stack trace:
+[13-Aug-2024 16:26:19 UTC] PHP   1. {main}() C:\wamp64\www\Admin_Panel\public\dashboard.php:0
+[13-Aug-2024 16:26:19 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\wamp64\www\Admin_Panel\views\main.php:74) in C:\wamp64\www\Admin_Panel\public\dashboard.php on line 58
+[13-Aug-2024 16:26:19 UTC] PHP Stack trace:
+[13-Aug-2024 16:26:19 UTC] PHP   1. {main}() C:\wamp64\www\Admin_Panel\public\dashboard.php:0
+[13-Aug-2024 16:26:19 UTC] PHP   2. header($header = 'Location: login.php') C:\wamp64\www\Admin_Panel\public\dashboard.php:58
+[13-Aug-2024 16:26:44 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\wamp64\www\Admin_Panel\views\main.php:74) in C:\wamp64\www\Admin_Panel\public\dashboard.php on line 58
+[13-Aug-2024 16:26:44 UTC] PHP Stack trace:
+[13-Aug-2024 16:26:44 UTC] PHP   1. {main}() C:\wamp64\www\Admin_Panel\public\dashboard.php:0
+[13-Aug-2024 16:26:44 UTC] PHP   2. header($header = 'Location: login.php') C:\wamp64\www\Admin_Panel\public\dashboard.php:58
+[13-Aug-2024 17:34:52 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\wamp64\www\Admin_Panel\views\member.php:11) in C:\wamp64\www\Admin_Panel\public\dashboard.php on line 54
+[13-Aug-2024 17:34:52 UTC] PHP Stack trace:
+[13-Aug-2024 17:34:52 UTC] PHP   1. {main}() C:\wamp64\www\Admin_Panel\public\dashboard.php:0
+[13-Aug-2024 17:34:52 UTC] PHP   2. header($header = 'Location:  dashboard.php') C:\wamp64\www\Admin_Panel\public\dashboard.php:54
+[13-Aug-2024 17:37:19 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\wamp64\www\Admin_Panel\views\member.php:11) in C:\wamp64\www\Admin_Panel\public\dashboard.php on line 54
+[13-Aug-2024 17:37:19 UTC] PHP Stack trace:
+[13-Aug-2024 17:37:19 UTC] PHP   1. {main}() C:\wamp64\www\Admin_Panel\public\dashboard.php:0
+[13-Aug-2024 17:37:19 UTC] PHP   2. header($header = 'Location:  dashboard.php') C:\wamp64\www\Admin_Panel\public\dashboard.php:54
+[13-Aug-2024 17:39:31 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\wamp64\www\Admin_Panel\views\member.php:11) in C:\wamp64\www\Admin_Panel\public\dashboard.php on line 54
+[13-Aug-2024 17:39:31 UTC] PHP Stack trace:
+[13-Aug-2024 17:39:31 UTC] PHP   1. {main}() C:\wamp64\www\Admin_Panel\public\dashboard.php:0
+[13-Aug-2024 17:39:31 UTC] PHP   2. header($header = 'Location:  dashboard.php') C:\wamp64\www\Admin_Panel\public\dashboard.php:54
+[13-Aug-2024 17:44:32 UTC] PHP Warning:  include(../views/pofile.php): Failed to open stream: No such file or directory in C:\wamp64\www\Admin_Panel\public\profile.php on line 15
+[13-Aug-2024 17:44:32 UTC] PHP Stack trace:
+[13-Aug-2024 17:44:32 UTC] PHP   1. {main}() C:\wamp64\www\Admin_Panel\public\profile.php:0
+[13-Aug-2024 17:44:32 UTC] PHP Warning:  include(): Failed opening '../views/pofile.php' for inclusion (include_path='.;C:\php\pear') in C:\wamp64\www\Admin_Panel\public\profile.php on line 15
+[13-Aug-2024 17:44:32 UTC] PHP Stack trace:
+[13-Aug-2024 17:44:32 UTC] PHP   1. {main}() C:\wamp64\www\Admin_Panel\public\profile.php:0
+[14-Aug-2024 05:32:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method UserController::profileDetail() in C:\wamp64\www\Admin_Panel\public\profile.php:11
+Stack trace:
+#0 {main}
+  thrown in C:\wamp64\www\Admin_Panel\public\profile.php on line 11
+[14-Aug-2024 05:33:15 UTC] PHP Warning:  Undefined array key "email" in C:\wamp64\www\Admin_Panel\views\profile.php on line 35
+[14-Aug-2024 05:33:15 UTC] PHP Stack trace:
+[14-Aug-2024 05:33:15 UTC] PHP   1. {main}() C:\wamp64\www\Admin_Panel\public\profile.php:0
+[14-Aug-2024 05:33:15 UTC] PHP   2. include() C:\wamp64\www\Admin_Panel\public\profile.php:21
+[14-Aug-2024 05:33:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method UserController::profileDetail() in C:\wamp64\www\Admin_Panel\public\profile.php:11
+Stack trace:
+#0 {main}
+  thrown in C:\wamp64\www\Admin_Panel\public\profile.php on line 11
+[14-Aug-2024 05:33:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method UserController::profileDetail() in C:\wamp64\www\Admin_Panel\public\profile.php:11
+Stack trace:
+#0 {main}
+  thrown in C:\wamp64\www\Admin_Panel\public\profile.php on line 11
+[14-Aug-2024 06:18:23 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'UPDATEusers SET name =?, email =? where id =?' at line 1 in C:\wamp64\www\Admin_Panel\models\User.php:237
+Stack trace:
+#0 C:\wamp64\www\Admin_Panel\models\User.php(237): mysqli->prepare('UPDATEusers SET...')
+#1 C:\wamp64\www\Admin_Panel\controllers\UserController.php(242): User->updateUser()
+#2 C:\wamp64\www\Admin_Panel\controllers\UserController.php(57): UserController->profileUpdate()
+#3 C:\wamp64\www\Admin_Panel\public\profile.php(17): UserController->processRequest()
+#4 {main}
+  thrown in C:\wamp64\www\Admin_Panel\models\User.php on line 237
+[14-Aug-2024 07:35:59 UTC] PHP Warning:  Undefined array key "action" in C:\wamp64\www\Admin_Panel\public\profile.php on line 17
+[14-Aug-2024 07:35:59 UTC] PHP Stack trace:
+[14-Aug-2024 07:35:59 UTC] PHP   1. {main}() C:\wamp64\www\Admin_Panel\public\profile.php:0
+[14-Aug-2024 07:37:51 UTC] PHP Warning:  Undefined array key "action" in C:\wamp64\www\Admin_Panel\public\profile.php on line 9
+[14-Aug-2024 07:37:51 UTC] PHP Stack trace:
+[14-Aug-2024 07:37:51 UTC] PHP   1. {main}() C:\wamp64\www\Admin_Panel\public\profile.php:0
+[14-Aug-2024 07:38:42 UTC] PHP Warning:  Undefined array key "action" in C:\wamp64\www\Admin_Panel\public\profile.php on line 9
+[14-Aug-2024 07:38:42 UTC] PHP Stack trace:
+[14-Aug-2024 07:38:42 UTC] PHP   1. {main}() C:\wamp64\www\Admin_Panel\public\profile.php:0
+[14-Aug-2024 07:38:48 UTC] PHP Warning:  Undefined array key "action" in C:\wamp64\www\Admin_Panel\public\profile.php on line 18
+[14-Aug-2024 07:38:48 UTC] PHP Stack trace:
+[14-Aug-2024 07:38:48 UTC] PHP   1. {main}() C:\wamp64\www\Admin_Panel\public\profile.php:0
+[14-Aug-2024 12:09:53 UTC] PHP Warning:  Undefined array key "action" in C:\wamp64\www\Admin_Panel\public\profile.php on line 9
+[14-Aug-2024 12:09:53 UTC] PHP Stack trace:
+[14-Aug-2024 12:09:53 UTC] PHP   1. {main}() C:\wamp64\www\Admin_Panel\public\profile.php:0
+[14-Aug-2024 18:22:45 UTC] PHP Warning:  Undefined array key "user_id" in C:\wamp64\www\Admin_Panel\views\header.php on line 20
+[14-Aug-2024 18:22:45 UTC] PHP Stack trace:
+[14-Aug-2024 18:22:45 UTC] PHP   1. {main}() C:\wamp64\www\Admin_Panel\public\login.php:0
+[14-Aug-2024 18:22:45 UTC] PHP   2. include() C:\wamp64\www\Admin_Panel\public\login.php:14
+[14-Aug-2024 18:22:45 UTC] PHP   3. require_once() C:\wamp64\www\Admin_Panel\views\login.php:2
+[14-Aug-2024 18:29:25 UTC] PHP Fatal error:  Uncaught ArgumentCountError: str_replace() expects at least 3 arguments, 1 given in C:\wamp64\www\Admin_Panel\views\register.php:7
+Stack trace:
+#0 C:\wamp64\www\Admin_Panel\views\register.php(7): str_replace('C:/wamp64/www')
+#1 C:\wamp64\www\Admin_Panel\public\register.php(20): include('C:\\wamp64\\www\\A...')
+#2 {main}
+  thrown in C:\wamp64\www\Admin_Panel\views\register.php on line 7
+[14-Aug-2024 18:34:39 UTC] PHP Warning:  Undefined variable $directory in C:\wamp64\www\Admin_Panel\views\register.php on line 7
+[14-Aug-2024 18:34:39 UTC] PHP Stack trace:
+[14-Aug-2024 18:34:39 UTC] PHP   1. {main}() C:\wamp64\www\Admin_Panel\public\register.php:0
+[14-Aug-2024 18:34:39 UTC] PHP   2. include() C:\wamp64\www\Admin_Panel\public\register.php:20
+[14-Aug-2024 18:34:39 UTC] PHP   3. getBaseUrl() C:\wamp64\www\Admin_Panel\views\register.php:12
+[14-Aug-2024 18:34:39 UTC] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\wamp64\www\Admin_Panel\views\register.php on line 7
+[14-Aug-2024 18:34:39 UTC] PHP Stack trace:
+[14-Aug-2024 18:34:39 UTC] PHP   1. {main}() C:\wamp64\www\Admin_Panel\public\register.php:0
+[14-Aug-2024 18:34:39 UTC] PHP   2. include() C:\wamp64\www\Admin_Panel\public\register.php:20
+[14-Aug-2024 18:34:39 UTC] PHP   3. getBaseUrl() C:\wamp64\www\Admin_Panel\views\register.php:12
+[14-Aug-2024 18:34:39 UTC] PHP   4. str_replace($search = '/public', $replace = '', $subject = NULL) C:\wamp64\www\Admin_Panel\views\register.php:7
+[14-Aug-2024 18:44:46 UTC] PHP Warning:  Undefined variable $baseUrl in C:\wamp64\www\Admin_Panel\views\header.php on line 9
+[14-Aug-2024 18:44:46 UTC] PHP Stack trace:
+[14-Aug-2024 18:44:46 UTC] PHP   1. {main}() C:\wamp64\www\Admin_Panel\public\login.php:0
+[14-Aug-2024 18:44:46 UTC] PHP   2. include() C:\wamp64\www\Admin_Panel\public\login.php:14
+[14-Aug-2024 18:44:46 UTC] PHP   3. require_once() C:\wamp64\www\Admin_Panel\views\login.php:2
+[14-Aug-2024 18:45:52 UTC] PHP Warning:  Undefined variable $baseUrl in C:\wamp64\www\Admin_Panel\views\header.php on line 9
+[14-Aug-2024 18:45:52 UTC] PHP Stack trace:
+[14-Aug-2024 18:45:52 UTC] PHP   1. {main}() C:\wamp64\www\Admin_Panel\public\login.php:0
+[14-Aug-2024 18:45:52 UTC] PHP   2. include() C:\wamp64\www\Admin_Panel\public\login.php:14
+[14-Aug-2024 18:45:52 UTC] PHP   3. require_once() C:\wamp64\www\Admin_Panel\views\login.php:2
+[14-Aug-2024 19:06:38 UTC] PHP Warning:  require(vendor/autoload.php): Failed to open stream: No such file or directory in C:\wamp64\www\Admin_Panel\controllers\UserController.php on line 4
+[14-Aug-2024 19:06:38 UTC] PHP Stack trace:
+[14-Aug-2024 19:06:38 UTC] PHP   1. {main}() C:\wamp64\www\Admin_Panel\public\register.php:0
+[14-Aug-2024 19:06:38 UTC] PHP   2. require_once() C:\wamp64\www\Admin_Panel\public\register.php:4
+[14-Aug-2024 19:06:38 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'vendor/autoload.php' (include_path='.;C:\php\pear') in C:\wamp64\www\Admin_Panel\controllers\UserController.php:4
+Stack trace:
+#0 C:\wamp64\www\Admin_Panel\public\register.php(4): require_once()
+#1 {main}
+  thrown in C:\wamp64\www\Admin_Panel\controllers\UserController.php on line 4
+[15-Aug-2024 12:40:40 UTC] PHP Warning:  Undefined variable $baseUrl in C:\wamp64\www\Admin_Panel\views\main.php on line 10
+[15-Aug-2024 12:40:40 UTC] PHP Stack trace:
+[15-Aug-2024 12:40:40 UTC] PHP   1. {main}() C:\wamp64\www\Admin_Panel\public\dashboard.php:0
+[15-Aug-2024 12:40:40 UTC] PHP   2. include() C:\wamp64\www\Admin_Panel\public\dashboard.php:18
+[15-Aug-2024 12:40:40 UTC] PHP   3. include() C:\wamp64\www\Admin_Panel\views\superAdmin.php:2
+[15-Aug-2024 12:40:40 UTC] PHP Warning:  Undefined variable $baseUrl in C:\wamp64\www\Admin_Panel\views\main.php on line 11
+[15-Aug-2024 12:40:40 UTC] PHP Stack trace:
+[15-Aug-2024 12:40:40 UTC] PHP   1. {main}() C:\wamp64\www\Admin_Panel\public\dashboard.php:0
+[15-Aug-2024 12:40:40 UTC] PHP   2. include() C:\wamp64\www\Admin_Panel\public\dashboard.php:18
+[15-Aug-2024 12:40:40 UTC] PHP   3. include() C:\wamp64\www\Admin_Panel\views\superAdmin.php:2
+[15-Aug-2024 12:40:42 UTC] PHP Warning:  Undefined variable $baseUrl in C:\wamp64\www\Admin_Panel\views\main.php on line 10
+[15-Aug-2024 12:40:42 UTC] PHP Stack trace:
+[15-Aug-2024 12:40:42 UTC] PHP   1. {main}() C:\wamp64\www\Admin_Panel\public\dashboard.php:0
+[15-Aug-2024 12:40:42 UTC] PHP   2. include() C:\wamp64\www\Admin_Panel\public\dashboard.php:18
+[15-Aug-2024 12:40:42 UTC] PHP   3. include() C:\wamp64\www\Admin_Panel\views\superAdmin.php:2
+[15-Aug-2024 12:40:42 UTC] PHP Warning:  Undefined variable $baseUrl in C:\wamp64\www\Admin_Panel\views\main.php on line 11
+[15-Aug-2024 12:40:42 UTC] PHP Stack trace:
+[15-Aug-2024 12:40:42 UTC] PHP   1. {main}() C:\wamp64\www\Admin_Panel\public\dashboard.php:0
+[15-Aug-2024 12:40:42 UTC] PHP   2. include() C:\wamp64\www\Admin_Panel\public\dashboard.php:18
+[15-Aug-2024 12:40:42 UTC] PHP   3. include() C:\wamp64\www\Admin_Panel\views\superAdmin.php:2
+[15-Aug-2024 12:40:46 UTC] PHP Warning:  Undefined variable $baseUrl in C:\wamp64\www\Admin_Panel\views\main.php on line 10
+[15-Aug-2024 12:40:46 UTC] PHP Stack trace:
+[15-Aug-2024 12:40:46 UTC] PHP   1. {main}() C:\wamp64\www\Admin_Panel\public\dashboard.php:0
+[15-Aug-2024 12:40:46 UTC] PHP   2. include() C:\wamp64\www\Admin_Panel\public\dashboard.php:18
+[15-Aug-2024 12:40:46 UTC] PHP   3. include() C:\wamp64\www\Admin_Panel\views\superAdmin.php:2
+[15-Aug-2024 12:40:46 UTC] PHP Warning:  Undefined variable $baseUrl in C:\wamp64\www\Admin_Panel\views\main.php on line 11
+[15-Aug-2024 12:40:46 UTC] PHP Stack trace:
+[15-Aug-2024 12:40:46 UTC] PHP   1. {main}() C:\wamp64\www\Admin_Panel\public\dashboard.php:0
+[15-Aug-2024 12:40:46 UTC] PHP   2. include() C:\wamp64\www\Admin_Panel\public\dashboard.php:18
+[15-Aug-2024 12:40:46 UTC] PHP   3. include() C:\wamp64\www\Admin_Panel\views\superAdmin.php:2
+[15-Aug-2024 12:40:47 UTC] PHP Warning:  Undefined variable $baseUrl in C:\wamp64\www\Admin_Panel\views\main.php on line 10
+[15-Aug-2024 12:40:47 UTC] PHP Stack trace:
+[15-Aug-2024 12:40:47 UTC] PHP   1. {main}() C:\wamp64\www\Admin_Panel\public\dashboard.php:0
+[15-Aug-2024 12:40:47 UTC] PHP   2. include() C:\wamp64\www\Admin_Panel\public\dashboard.php:18
+[15-Aug-2024 12:40:47 UTC] PHP   3. include() C:\wamp64\www\Admin_Panel\views\superAdmin.php:2
+[15-Aug-2024 12:40:47 UTC] PHP Warning:  Undefined variable $baseUrl in C:\wamp64\www\Admin_Panel\views\main.php on line 11
+[15-Aug-2024 12:40:47 UTC] PHP Stack trace:
+[15-Aug-2024 12:40:47 UTC] PHP   1. {main}() C:\wamp64\www\Admin_Panel\public\dashboard.php:0
+[15-Aug-2024 12:40:47 UTC] PHP   2. include() C:\wamp64\www\Admin_Panel\public\dashboard.php:18
+[15-Aug-2024 12:40:47 UTC] PHP   3. include() C:\wamp64\www\Admin_Panel\views\superAdmin.php:2
+[15-Aug-2024 12:41:21 UTC] PHP Warning:  Undefined variable $baseUrl in C:\wamp64\www\Admin_Panel\views\main.php on line 10
+[15-Aug-2024 12:41:21 UTC] PHP Stack trace:
+[15-Aug-2024 12:41:21 UTC] PHP   1. {main}() C:\wamp64\www\Admin_Panel\public\dashboard.php:0
+[15-Aug-2024 12:41:21 UTC] PHP   2. include() C:\wamp64\www\Admin_Panel\public\dashboard.php:18
+[15-Aug-2024 12:41:21 UTC] PHP   3. include() C:\wamp64\www\Admin_Panel\views\superAdmin.php:2
+[15-Aug-2024 12:41:21 UTC] PHP Warning:  Undefined variable $baseUrl in C:\wamp64\www\Admin_Panel\views\main.php on line 11
+[15-Aug-2024 12:41:21 UTC] PHP Stack trace:
+[15-Aug-2024 12:41:21 UTC] PHP   1. {main}() C:\wamp64\www\Admin_Panel\public\dashboard.php:0
+[15-Aug-2024 12:41:21 UTC] PHP   2. include() C:\wamp64\www\Admin_Panel\public\dashboard.php:18
+[15-Aug-2024 12:41:21 UTC] PHP   3. include() C:\wamp64\www\Admin_Panel\views\superAdmin.php:2
+[15-Aug-2024 12:54:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method UserController::validatePassword() in C:\wamp64\www\Admin_Panel\controllers\UserController.php:312
+Stack trace:
+#0 C:\wamp64\www\Admin_Panel\controllers\UserController.php(82): UserController->passwordChange()
+#1 C:\wamp64\www\Admin_Panel\public\profile.php(20): UserController->processRequest()
+#2 {main}
+  thrown in C:\wamp64\www\Admin_Panel\controllers\UserController.php on line 312
+[15-Aug-2024 13:01:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method UserController::validatePassword() in C:\wamp64\www\Admin_Panel\controllers\UserController.php:312
+Stack trace:
+#0 C:\wamp64\www\Admin_Panel\controllers\UserController.php(82): UserController->passwordChange()
+#1 C:\wamp64\www\Admin_Panel\public\profile.php(18): UserController->processRequest()
+#2 {main}
+  thrown in C:\wamp64\www\Admin_Panel\controllers\UserController.php on line 312
