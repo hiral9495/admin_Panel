@@ -4,7 +4,7 @@
 RewriteEngine On
 
 # Set the base directory
-RewriteBase /admin_panel/
+RewriteBase /admin_Panel-main/
 
 # Redirect requests for specific files (like profile) to the public directory
 RewriteRule ^profile$ public/profile.php [L]
